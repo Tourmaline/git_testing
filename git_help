@@ -25,3 +25,10 @@ $ git bisect bad
 
 This can even be automatized with git bisect run <script>
 For this you write the script that returns zero/non-zero (success/failure)
+
+
+Finding commits not merged upstream
+
+Commits from current branch have not been merged to <branch>:
+
+git cherry <branch>
